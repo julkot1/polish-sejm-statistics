@@ -1,0 +1,24 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2021
+  },
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+    "prettier",
+    "next/core-web-vitals"
+  ],
+  "plugins": [
+    "@typescript-eslint",
+    "prettier",
+    "plugin:prettier/recommended",
+    "import"
+  ],
+  "rules": {
+    "no-var": "error",
+    "semi": "off",
+    "no-multi-spaces": "error",
+    "space-in-parens": "error",
+    "no-use-before-define": "error"
+  }
+}
